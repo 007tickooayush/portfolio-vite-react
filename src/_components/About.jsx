@@ -1,17 +1,23 @@
-import { Box, Container, Flex, Heading, Link, List, ListItem, Text, useDisclosure } from '@chakra-ui/react';
+import { Box, Container, Flex, Heading, Link, List, ListItem, SimpleGrid, Text, useDisclosure } from '@chakra-ui/react';
 import { ScaleFade } from '@chakra-ui/transition';
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import certificationsList from "../_assets/certifications.json";
 
 const About = () => {
 
+    const [certifications, setCertifications] = useState([]);
+
+    useEffect(() => {
+        setCertifications(certificationsList);
+    }, []);
     return (
         <ScaleFade initialScale={0.9} in={true}>
             <Container maxW="container.md" borderRadius={"2rem"} border={10} borderColor={'black'} boxShadow={'lg'}>
                 <Box p={5}>
                     <Heading fontSize="xl">Ayush Tickoo</Heading>
                     <Text mt={4}>
-                        A MERN Stack developer with experience in REDIS, MySQL, Java Spring Boot. 
+                        A MERN Stack developer with experience in REDIS, MySQL, Java Spring Boot.
                         Holds a Bachelor's degree in Computer Science and Engineering.
                     </Text>
                     <List spacing={3} mt={4}>
@@ -25,17 +31,25 @@ const About = () => {
                         </ListItem>
                         <ListItem>
                             <Text fontWeight="bold">Certifications:</Text>
-                            <Text>List your certifications here</Text>
+                            <List spacing={1}>
+                                {
+                                    certifications.map((certification, index) => (
+                                        <ListItem key={index}>
+                                            <Box borderBottomWidth={1} p={2} mb={2}>
+                                                <SimpleGrid columns={2} spacing={2}>
+                                                    <Text>{certification.title}</Text>
+                                                    <Text>{certification.year}</Text>
+                                                    <Text>{certification.provider}</Text>
+                                                </SimpleGrid>
+                                                <Text>{certification.credentials}</Text>
+                                            </Box>
+                                        </ListItem>
+                                    ))
+                                }
+                            </List>
+
                         </ListItem>
                     </List>
-                    <Flex mt={4}>
-                        <Link href="https://github.com/007tickooayush" isExternal mr={2}>
-                            <FaGithub />
-                        </Link>
-                        <Link href="https://www.linkedin.com/in/ayush-tickoo-150704182/" isExternal>
-                            <FaLinkedin />
-                        </Link>
-                    </Flex>
                 </Box>
             </Container>
         </ScaleFade>

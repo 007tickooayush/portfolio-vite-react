@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Node js Certification",
+        "year": "2024",
+        "provider": "Hackerrank",
+        "credentials": ""
+    },
+    {
+        "title": "REST API Certification",
+        "year": "2024",
+        "provider": "Hackerrank",
+        "credentials": ""
+    },
+    {
+        "title": "Full Stack Data Science",
+        "year": "2023",
+        "provider": "Almabetter",
+        "credentials": ""
+    },
+    {
+        "title": "Java Certification",
+        "year": "2021",
+        "provider": "Hackerrank",
+        "credentials": ""
+    },
+    {
+        "title": "React Training",
+        "year": "2020",
+        "provider": "Internshala",
+        "credentials": ""
+    }
+]
