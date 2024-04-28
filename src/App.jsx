@@ -2,14 +2,12 @@ import { useState } from 'react'
 // import reactLogo from './_assets/react.svg'
 // import viteLogo from '/vite.svg'
 import './App.css'
+import { RouterProvider } from 'react-router-dom'
+import { router } from './_utils/router'
 
 function App() {
-    const [count, setCount] = useState(0)
-
     return (
-        <>
-            My portfolio website
-        </>
+        <RouterProvider router={router}/>
     )
 }
 
