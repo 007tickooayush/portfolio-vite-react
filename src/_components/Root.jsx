@@ -1,24 +1,42 @@
+import { Box, Button, Flex, Text, useColorMode } from '@chakra-ui/react';
 import React from 'react'
 import { Link, Outlet } from 'react-router-dom';
+import ColorMode from './ColorMode';
 
 const Root = () => {
+
     return (
-        <div>
-            My portfolio page
-            <nav>
-                <ul>
-                    <Link to="/home">Home</Link>
-                    <Link to="/about">About</Link>
-                    <Link to="/projects">Projects</Link>
-                    <Link to="/contact">Contact</Link>
-                    {/* <li><a href="/home">Home</a></li>
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/projects">Projects</a></li>
-                    <li><a href="/contact">Contact</a></li> */}
-                </ul>
-            </nav>
+        <Box>
+            <Flex p={4} shadow={'xl'} border="2rem" borderColor="black" justify="space-between" align="center" borderBottomRadius="2rem">
+                <Flex justify={'space-between'} align={'center'}>
+                    <Box mr={4}>
+                        <Link to="/home">
+                            Home
+                        </Link>
+                    </Box>
+                    <Box mr={4}>
+                        <Link to="/about">
+                            About
+                        </Link>
+                    </Box>
+                    <Box mr={4}>
+                        <Link to="/projects">
+                            Projects
+                        </Link>
+                    </Box>
+                    <Box mr={4}>
+                        <Link to="/contact">Contact</Link>
+                    </Box>
+                </Flex >
+                <Flex justify={'space-between'} align={'center'}>
+                    <Box margin={4}>
+                        <Text>Ayush Tickoo</Text>
+                    </Box>
+                    <ColorMode />
+                </Flex>
+            </Flex>
             <Outlet />
-        </div>
+        </Box>
     )
 }
 
