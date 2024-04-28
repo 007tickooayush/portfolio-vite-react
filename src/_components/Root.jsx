@@ -38,12 +38,12 @@ const Root = () => {
                         <Text>Ayush Tickoo</Text>
                     </Box>
                     <Box margin={2}>
-                        <Link href="https://github.com/007tickooayush" isExternal>
+                        <Link href="https://github.com/007tickooayush" >
                             <FaGithub />
                         </Link>
                     </Box>
                     <Box margin={2}>
-                        <Link href="https://www.linkedin.com/in/ayush-tickoo-150704182/" isExternal >
+                        <Link href="https://www.linkedin.com/in/ayush-tickoo-150704182/" >
                             <FaLinkedin />
                         </Link>
                     </Box>

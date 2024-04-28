@@ -6,7 +6,7 @@ const ProjectCard = ({ name, description, languagesUsed }) => {
 
     const handleToggle = () => setShow(!show)
     return (
-        <Box borderWidth="2px" borderRadius="md" p={4} boxShadow="md" bg="white" minHeight={"sm"}>
+        <Box borderWidth="2px" borderRadius="md" p={4} boxShadow="md" minHeight={"sm"}>
             <Flex direction="column" justifyContent="space-between" height="100%" alignContent={"stretch"}>
                 <Box>
                     <Heading as="h3" size="md" mb={2}>
