@@ -1,0 +1,45 @@
+{
+    "name": "Ayush Tickoo",
+    "email": "ayush.tickoo292000@gmail.com",
+    "linkedin":"https://www.linkedin.com/in/ayush-tickoo-150704182/",
+    "github": "https://github.com/007tickooayush",
+    "description": "Software Engineer with proficiency in the MERN (MongoDB, Express.js, React.js, Node.js) stack, Java Spring Boot, and MySQL database management. Proven ability to develop robust and scalable applications while collaborating effectively within multidisciplinary teams and with proficient grasp over REST APIs, Websockets using socket.io, and Redis for caching, and slight experience with Docker compose for handling the containers of the project. Initially have worked with Java Spring boot using MySql and JPA, and React js and was also responsible for Version control management using Git. Also having done a Full Stack Data science specialisation certification for a year. Seeking an opportunity to leverage technical expertise and passion for innovation in a forward-thinking company.",
+    "skills": {
+        "expert": [ "Express js", "Mongoose", "Joi", "Socket.iO", "Git" ],
+        "intermediate": [ "Node js", "Typescript", "Mongo DB", "Java", "Mysql", "Redis", "Python", "Websockets", "javascript", "html", "css", "React js" ],
+        "basic": [ "Spring boot", "Docker", "Python" ]
+    },
+    "experience": [
+        {
+            "title": "Software Engineer",
+            "company": "Onpassive Technologies, Hyderabad",
+            "duration": "June 2023 - May 2024",
+            "deliverables": [
+                "Spearheaded the development of full-stack applications using the MERN (MongoDB, Express.js, React.js, Node.js) stack, incorporating websockets using Socket.io to enable real-time communication features.",
+                "Implemented horizontal scalability solutions leveraging Redis to efficiently manage application data and optimize performance, ensuring seamless scalability as user base grows.",
+                "Led initiatives to refactor and revamp backend server codebases, optimizing performance, reliability, and maintainability while reducing technical debt.",
+                "Collaborated closely with cross-functional teams to gather requirements, design solutions, and implement features aligned with project objectives and timelines.",
+                "Developed RESTful APIs using Express.js and Node.js, facilitating seamless communication between front-end and back-end systems.",
+                "Designed and implemented responsive and intuitive user interfaces using React.js, enhancing user experience and engagement.",
+                "Conducted thorough testing, debugging, and performance tuning to identify and resolve software defects, ensuring optimal functionality and stability of applications.",
+                "Utilized version control systems such as Git to manage codebase and ensure smooth collaborative development workflows.",
+                "Maintained comprehensive documentation of codebase, system architecture, and technical specifications to support knowledge sharing and future development efforts."
+            ]
+        },
+        {
+            "title": "Associate Software Engineer",
+            "company": "Highradius Technologies Pvt. Ltd., Hyderabad",
+            "duration": "May 2021 - May 2023",
+            "deliverables": [
+                "Developed full-stack applications utilizing the MERN (MongoDB, Express.js, React.js, Node.js) stack, Java Spring Boot, and MySQL, ensuring high performance and reliability.",
+                "Collaborated closely with cross-functional teams to gather requirements, design solutions, and implement features in alignment with project objectives.",
+                "Contributed to the development of RESTful APIs using Express.js and Spring Boot, facilitating seamless communication between front-end and back-end systems.",
+                "Implemented responsive and intuitive user interfaces using React.js, enhancing user experience and engagement.",
+                "Conducted thorough testing and debugging to identify and resolve software defects, ensuring optimal functionality and stability of applications.",
+                "Utilized version control systems such as Git to manage codebase and streamline collaborative development efforts.",
+                "Actively participated in code reviews, providing constructive feedback and ensuring adherence to coding standards and best practices.",
+                "Maintained comprehensive documentation of codebase, system architecture, and technical specifications to support knowledge sharing and future development efforts."
+            ]
+        }
+    ]
+}
