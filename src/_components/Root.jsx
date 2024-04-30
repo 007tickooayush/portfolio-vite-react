@@ -7,53 +7,53 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 const Root = () => {
 
     return (
-        <Box>
-            <Flex p={4} shadow={'xl'} border="2rem" borderColor="black" justify="space-between" align="center" borderBottomRadius="2rem" flexDirection={['column', 'row']}>
-                <Flex justify={'space-between'} align={'center'} mb={[4, 0]}>
-                    <Tabs variant='soft-rounded' colorScheme='gray'>
-                        <TabList>
-                            <Tab mr={4}>
-                                <Link to="/home">
-                                    Home
-                                </Link>
-                            </Tab>
-                            <Tab mr={4}>
-                                <Link to="/about">
-                                    About
-                                </Link>
-                            </Tab>
-                            <Tab mr={4}>
-                                <Link to="/projects">
-                                    Projects
-                                </Link>
-                            </Tab>
-                            <Tab mr={4}>
-                                <Link to="/contact">Contact</Link>
-                            </Tab>
-                        </TabList>
+        <Box display="flex" flexDirection={"column"} minHeight="100vh">
+            <Flex
+                p={4}
+                shadow="xl"
+                border="2rem"
+                borderColor="black"
+                justify="space-between"
+                align="center"
+                borderBottomRadius="2rem"
+                flexDirection={['column', 'row']}
+            >
+                <Flex justify="space-between" align="center" mb={[4, 0]}>
+                    <Tabs variant="soft-rounded" colorScheme="gray" display='flex' flexDirection={'row'}>
+                        <Tab mr={4}>
+                            <Link to="/home">Home</Link>
+                        </Tab>
+                        <Tab mr={4}>
+                            <Link to="/about">About</Link>
+                        </Tab>
+                        <Tab mr={4}>
+                            <Link to="/projects">Projects</Link>
+                        </Tab>
+                        <Tab mr={4}>
+                            <Link to="/contact">Contact</Link>
+                        </Tab>
                     </Tabs>
-                </Flex >
-                <Flex justify={'space-between'} align={'center'}>
+                </Flex>
+                <Flex justify="space-between" align="center">
                     <Box margin={2}>
                         <Text>Ayush Tickoo</Text>
                     </Box>
                     <Box margin={2}>
-                        <Link href="https://github.com/007tickooayush" >
+                        <a href="https://github.com/007tickooayush">
                             <FaGithub />
-                        </Link>
+                        </a>
                     </Box>
                     <Box margin={2}>
-                        <Link href="https://www.linkedin.com/in/ayush-tickoo-150704182/" >
+                        <a href="https://www.linkedin.com/in/ayush-tickoo-150704182/">
                             <FaLinkedin />
-                        </Link>
+                        </a>
                     </Box>
-
                     <ColorMode />
                 </Flex>
             </Flex>
             <Outlet />
         </Box>
-    )
+    );
 }
 
 export default Root;
