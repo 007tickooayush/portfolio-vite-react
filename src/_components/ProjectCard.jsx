@@ -1,8 +1,15 @@
 import { Box, Center, Collapse, Flex, Heading, SimpleGrid, Tag, Text } from '@chakra-ui/react';
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 
 const ProjectCard = ({ name, description, languagesUsed }) => {
     const [show, setShow] = useState(false)
+
+    const [github, setGithub] = useState('');
+    useEffect(() => {
+        import('../_assets/home.json')
+            .then(res => setGithub(res.default.github))
+            .catch(err => console.log(err));
+    },[]);
 
     const handleToggle = () => setShow(!show)
     return (
@@ -10,7 +17,9 @@ const ProjectCard = ({ name, description, languagesUsed }) => {
             <Flex direction="column" justifyContent="space-between" height="100%" alignContent={"stretch"}>
                 <Box>
                     <Heading as="h3" size="md" mb={2}>
-                        {name}
+                        <a href={`${github}/${name}`}>
+                            {name}
+                        </a>
                     </Heading>
                 </Box>
                 <Box onClick={handleToggle}>

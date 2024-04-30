@@ -1,13 +1,13 @@
 import { Box, Card, Center, Container, Flex, SimpleGrid, SlideFade, VStack } from '@chakra-ui/react';
 import React, { useEffect, useState } from 'react'
 import ProjectCard from './ProjectCard';
-import projectsList from "../_assets/projects.json";
 
 const Projects = () => {
     const [projects, setProjects] = useState([]);
 
     useEffect(() => {
-        setProjects(projectsList);
+        import("../_assets/projects.json").then(res => setProjects(res.default)).catch(err => console.log(err));
+        // setProjects(projectsList);
     },[]);
 
     return (
