@@ -1,4 +1,4 @@
-import { Box, Card, Center, Container, SimpleGrid, SlideFade, VStack } from '@chakra-ui/react';
+import { Box, Card, Center, Container, Flex, SimpleGrid, SlideFade, VStack } from '@chakra-ui/react';
 import React, { useEffect, useState } from 'react'
 import ProjectCard from './ProjectCard';
 import projectsList from "../_assets/projects.json";
@@ -12,16 +12,9 @@ const Projects = () => {
 
     return (
         <SlideFade in={true} offsetY="20px">
-            <Container p={8} shadow={'xl'} borderRadius={'2rem'} minW='xl'>
+            <Container p={8} shadow={'xl'} borderRadius={'2rem'} >
                 <Box >
-                    <SimpleGrid columns={2} spacing={10}>
-                        {/* <Box>
-                            
-                            <ProjectCard name="Project 1" description="Description 1" languagesUsed={["Language 1", "Language 2"]}/>
-                            <Center>
-                                column1
-                            </Center>
-                        </Box> */}
+                    <Flex flexWrap={'wrap'}>
                         {
                             projects.map((project, index) => {
                                 return (
@@ -31,7 +24,7 @@ const Projects = () => {
                                 )
                             })
                         }
-                    </SimpleGrid>
+                    </Flex>
 
                 </Box>
             </Container>

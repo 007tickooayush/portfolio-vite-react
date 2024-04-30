@@ -1,15 +1,14 @@
 import { Box, Container, Flex, Heading, Link, List, ListItem, SimpleGrid, Text, useDisclosure } from '@chakra-ui/react';
 import { ScaleFade } from '@chakra-ui/transition';
 import React, { useEffect, useState } from 'react'
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
-import certificationsList from "../_assets/certifications.json";
+// import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const About = () => {
 
     const [certifications, setCertifications] = useState([]);
 
     useEffect(() => {
-        setCertifications(certificationsList);
+        import('../_assets/certifications.json').then(res => setCertifications(res.default));
     }, []);
     return (
         <ScaleFade initialScale={0.9} in={true}>

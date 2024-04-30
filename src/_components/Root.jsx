@@ -8,8 +8,8 @@ const Root = () => {
 
     return (
         <Box>
-            <Flex p={4} shadow={'xl'} border="2rem" borderColor="black" justify="space-between" align="center" borderBottomRadius="2rem">
-                <Flex justify={'space-between'} align={'center'}>
+            <Flex p={4} shadow={'xl'} border="2rem" borderColor="black" justify="space-between" align="center" borderBottomRadius="2rem" flexDirection={['column', 'row']}>
+                <Flex justify={'space-between'} align={'center'} mb={[4, 0]}>
                     <Tabs variant='soft-rounded' colorScheme='gray'>
                         <TabList>
                             <Tab mr={4}>
