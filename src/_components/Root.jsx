@@ -22,7 +22,7 @@ const Root = () => {
                 <Flex justify="space-between" align="center" mb={[4, 0]} flexDirection={['column', 'row']} >
                     <Tabs variant="soft-rounded" colorScheme="gray" display='flex' flexDirection={['column', 'row']}>
                         <Tab mr={4}>
-                            <Link to="/home">Home</Link>
+                            <Link to="/">Home</Link>
                         </Tab>
                         <Tab mr={4}>
                             <Link to="/about">About</Link>
