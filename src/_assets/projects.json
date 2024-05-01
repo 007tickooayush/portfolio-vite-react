@@ -6,7 +6,7 @@
     },
     {
         "name": "wisestep-link-shortner",
-        "description": "A full stack java Link shortner project made with Spring Reacive Web, Spring boot, MongoDB and React Js",
+        "description": "A full stack java Link shortner project made with Spring Reactive Web, Spring boot, MongoDB and React Js",
         "languagesUsed": ["React.Js", "Java", "MongoDB", "JavaScript", "HTML", "CSS"]
     },
     {

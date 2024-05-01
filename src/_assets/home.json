@@ -3,6 +3,7 @@
     "email": "ayush.tickoo292000@gmail.com",
     "linkedin":"https://www.linkedin.com/in/ayush-tickoo-150704182/",
     "github": "https://github.com/007tickooayush",
+    "medium": "https://medium.com/@007tickooayush",
     "description": "Software Engineer with proficiency in the MERN (MongoDB, Express.js, React.js, Node.js) stack, Java Spring Boot, and MySQL database management. Proven ability to develop robust and scalable applications while collaborating effectively within multidisciplinary teams and with proficient grasp over REST APIs, Websockets using socket.io, and Redis for caching, and slight experience with Docker compose for handling the containers of the project. Initially have worked with Java Spring boot using MySql and JPA, and React js and was also responsible for Version control management using Git. Also having done a Full Stack Data science specialisation certification for a year. Seeking an opportunity to leverage technical expertise and passion for innovation in a forward-thinking company.",
     "skills": {
         "expert": [ "Express js", "Mongoose", "Joi", "Socket.io", "Git" ],
