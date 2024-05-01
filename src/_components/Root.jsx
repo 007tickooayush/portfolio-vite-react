@@ -7,7 +7,8 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 const Root = () => {
 
     return (
-        <Box display="flex" flexDirection={"column"} minHeight="100vh">
+        // <Box display="flex" flexDirection={{ base: "column", md: "row" }} flexWrap="wrap" minHeight="100vh" minWidth={'100vw'}></Box>
+        <Box display="flex" flexDirection={"column"} minHeight="100vh" minWidth={'100vw'}>
             <Flex
                 p={4}
                 shadow="xl"
@@ -16,10 +17,10 @@ const Root = () => {
                 justify="space-between"
                 align="center"
                 borderBottomRadius="2rem"
-                flexDirection={['column', 'row']}
+                direction={{ base: "column", md: "row" }}
             >
-                <Flex justify="space-between" align="center" mb={[4, 0]}>
-                    <Tabs variant="soft-rounded" colorScheme="gray" display='flex' flexDirection={'row'}>
+                <Flex justify="space-between" align="center" mb={[4, 0]} flexDirection={['column', 'row']} >
+                    <Tabs variant="soft-rounded" colorScheme="gray" display='flex' flexDirection={['column', 'row']}>
                         <Tab mr={4}>
                             <Link to="/home">Home</Link>
                         </Tab>
@@ -34,7 +35,8 @@ const Root = () => {
                         </Tab>
                     </Tabs>
                 </Flex>
-                <Flex justify="space-between" align="center">
+                <Flex justify="space-between" align="center" > 
+                {/* flexDirection={['column', 'row']} */}
                     <Box margin={2}>
                         <Text>Ayush Tickoo</Text>
                     </Box>

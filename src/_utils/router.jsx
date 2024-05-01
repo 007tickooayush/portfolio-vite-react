@@ -1,9 +1,10 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter, Routes, Route } from "react-router-dom";
 import Root from "../_components/Root";
 import Home from "../_components/Home";
 import About from "../_components/About";
 import Projects from "../_components/Projects";
 import Contact from "../_components/Contact";
+import ErrorBoundary from "../_components/ErrorBoundary";
 
 export const router = createBrowserRouter([
     {
@@ -27,8 +28,8 @@ export const router = createBrowserRouter([
                 element: <Contact />
             },
             {
-                path: '/',
-                element: <Home />
+                path: '*',
+                element: <ErrorBoundary />
             }
         ]
     }

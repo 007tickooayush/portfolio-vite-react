@@ -8,10 +8,10 @@ const Projects = () => {
     useEffect(() => {
         import("../_assets/projects.json").then(res => setProjects(res.default)).catch(err => console.log(err));
         // setProjects(projectsList);
-    },[]);
+    }, []);
 
     return (
-        <SlideFade in={true} offsetY="20px">
+        <SlideFade in={true} offsetY="20px" transition={{ enter: { duration: 0.5, delay: 0.3 }, exit: { duration: 0.2, delay: 0.5 } }} >
             <Container p={8} shadow={'xl'} borderRadius={'2rem'} maxW={'container.lg'}>
                 <Box >
                     <Flex flexWrap={'wrap'}>
@@ -28,7 +28,7 @@ const Projects = () => {
                         </SimpleGrid>
                     </Flex>
                 </Box>
-            </Container> 
+            </Container>
         </SlideFade>
     )
 }

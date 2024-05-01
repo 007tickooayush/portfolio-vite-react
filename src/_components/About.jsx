@@ -11,12 +11,12 @@ const About = () => {
         import('../_assets/certifications.json').then(res => setCertifications(res.default));
     }, []);
     return (
-        <ScaleFade initialScale={0.9} in={true}>
-            <Container maxW="container.md" borderRadius={"2rem"} border={10} borderColor={'black'} boxShadow={'lg'}>
+        <ScaleFade initialScale={0.9} in={true} transition={{ enter: { duration: 0.6, delay: 0.2 }, exit: { duration: 0.4, delay: 0.1 } }}>
+            <Container maxW="container.md" borderRadius={"2rem"} border={10} borderColor={'black'} boxShadow={'lg'} mt={4}>
                 <Box p={5}>
                     <Heading fontSize="xl">Ayush Tickoo</Heading>
                     <Text mt={4}>
-                        A MERN Stack developer with experience in REDIS, MySQL, Java Spring Boot.
+                        A Full Stack/MERN Stack developer with experience in Mongo DB, Express-js, Socket.io, React.js, Node.js, Bun, Docker, Docker-compose, REDIS, MySQL, Java Spring Boot, HTML, CSS, Javascript.
                         Holds a Bachelor's degree in Computer Science and Engineering.
                     </Text>
                     <List spacing={3} mt={4}>
