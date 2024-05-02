@@ -1,8 +1,14 @@
 import { Box, Button, Flex, Tab, TabList, Tabs, Text, useColorMode } from '@chakra-ui/react';
 import React from 'react'
-import { Link, Outlet } from 'react-router-dom';
+import { BrowserRouter, Link, Outlet, Route, Routes } from 'react-router-dom';
 import ColorMode from './ColorMode';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
+
+// import Home from './Home';
+// import About from './About';
+// import Projects from './Projects';
+// import Contact from './Contact';
+// import ErrorBoundary from './ErrorBoundary';
 
 const Root = () => {
 
@@ -35,8 +41,8 @@ const Root = () => {
                         </Tab>
                     </Tabs>
                 </Flex>
-                <Flex justify="space-between" align="center" > 
-                {/* flexDirection={['column', 'row']} */}
+                <Flex justify="space-between" align="center" >
+                    {/* flexDirection={['column', 'row']} */}
                     <Box margin={2}>
                         <Text>Ayush Tickoo</Text>
                     </Box>
