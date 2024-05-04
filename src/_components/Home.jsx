@@ -6,7 +6,7 @@ const Home = () => {
 
     const [details, setDetails] = useState({});
     useEffect(() => {
-        // onToggle();
+        // console.log(import.meta.env.VITE_COMPONENT_ENV);
         import('../_assets/home.json')
             .then(res => setDetails(res.default))
             .catch(err => console.log(err));
