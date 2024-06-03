@@ -7,8 +7,8 @@
     "description": "Software Engineer with proficiency in the MERN (MongoDB, Express.js, React.js, Node.js) stack, Java Spring Boot, and MySQL database management. Proven ability to develop robust and scalable applications while collaborating effectively within multidisciplinary teams and with proficient grasp over REST APIs, Websockets using socket.io, and Redis for caching, and slight experience with Docker compose for handling the containers of the project. Initially have worked with Java Spring boot using MySql and JPA, and React js and was also responsible for Version control management using Git. Also having done a Full Stack Data science specialisation certification for a year. Seeking an opportunity to leverage technical expertise and passion for innovation in a forward-thinking company.",
     "skills": {
         "expert": [ "Express js", "Mongoose", "Joi", "Socket.io", "Git" ],
-        "intermediate": [ "Node js", "Typescript", "Mongo DB", "Java", "Mysql", "Redis", "Python", "Websockets", "javascript", "html", "css", "React js" ],
-        "basic": [ "Spring boot", "Docker", "Python" ]
+        "intermediate": [ "Rust", "Node js", "Typescript", "Mongo DB", "Java", "Mysql", "Redis", "Python", "Websockets", "javascript", "html", "css", "React js" ],
+        "basic": [ "Spring boot", "Docker", "Docker Compose" ]
     },
     "experience": [
         {
@@ -30,7 +30,7 @@
         {
             "title": "Associate Software Engineer",
             "company": "Highradius Technologies Pvt. Ltd., Hyderabad",
-            "duration": "May 2021 - May 2023",
+            "duration": "May 2022 - May 2023",
             "deliverables": [
                 "Developed full-stack applications utilizing the MERN (MongoDB, Express.js, React.js, Node.js) stack, Java Spring Boot, and MySQL, ensuring high performance and reliability.",
                 "Collaborated closely with cross-functional teams to gather requirements, design solutions, and implement features in alignment with project objectives.",
@@ -40,6 +40,21 @@
                 "Utilized version control systems such as Git to manage codebase and streamline collaborative development efforts.",
                 "Actively participated in code reviews, providing constructive feedback and ensuring adherence to coding standards and best practices.",
                 "Maintained comprehensive documentation of codebase, system architecture, and technical specifications to support knowledge sharing and future development efforts."
+            ]
+        },
+        {
+            "title": "Product Engineer",
+            "company": "Highradius Technologies Pvt. Ltd., Hyderabad",
+            "duration": "June 2021 - May 2023",
+            "deliverables": [
+                "Maintained and deployed scalable code for the product, ensuring seamless integration and functionality across different platforms.",
+                "Collaborated with cross-functional teams to gather requirements, design solutions, and implement features that align with business goals and user needs.",
+                "Contributed to the development and maintenance of RESTful APIs, facilitating efficient data exchange between front-end and back-end systems.",
+                "Implemented responsive and user-friendly interfaces, enhancing the overall user experience.",
+                "Conducted thorough testing, debugging, and troubleshooting to identify and resolve software defects, ensuring optimal performance and stability of the applications.",
+                "Utilized version control systems such as Git for effective code management and collaboration with other team members.",
+                "Participated in code reviews to ensure adherence to coding standards and best practices, providing constructive feedback to peers.",
+                "Documented codebase, system architecture, and technical specifications to support ongoing development and maintenance efforts."
             ]
         }
     ]
