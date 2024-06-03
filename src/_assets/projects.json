@@ -1,34 +1,47 @@
 [
     {
-        "name": "bun-redis-socket",
-        "description": "A Bun project made for portraying the concepts of load balancing ready application for sockets interaction along with http requests.",
-        "languagesUsed": ["Bun", "Express", "Socket.io", "Typescript", "redis"]
+        "name": "portfolio-vite-react",
+        "description": "Personal Portfolio website for showcasing all the skills, work experience, and certifications.",
+        "libsUsed": ["React.Js", "Vite", "Chakra UI", "HTML", "CSS"]
     },
     {
-        "name": "wisestep-link-shortner",
-        "description": "A full stack java Link shortner project made with Spring Reactive Web, Spring boot, MongoDB and React Js",
-        "languagesUsed": ["React.Js", "Java", "MongoDB", "JavaScript", "HTML", "CSS"]
+        "name": "byte-sigma-poc",
+        "description": "An image upload and gallery project with local pseudo cloud mechanism with authenticated access for files via the server to client, made using MERN Stack",
+        "libsUsed": ["Node.js", "Express", "javascript", "MongoDB", "React.Js", "mongoose ", "multer"]
+    },
+    {
+        "name": "cms-mongo-rust",
+        "description": "A highly efficient and lightning fast API Server built with Rust programming language, React Js library and Mongo DB. built for experimenting the responsiveness of CRUD operations in Rust Web API Server.",
+        "libsUsed": ["Rust", "mongodb", "React.Js", "serde", "tokio", "bson", "serde-json", "axum", "axum-server"]
     },
     {
         "name": "box-office-app",
         "description": "A progressive Web Application(PWA) made with React Js, which shows the latest movies and tv shows details from a public API using axios.",
-        "languagesUsed": ["React.Js", "JavaScript", "HTML", "CSS"]
+        "libsUsed": ["React.Js", "JavaScript", "HTML", "CSS"]
     },
     {
         "name": "assistance-ticket-system",
         "description": "A project to handle tickets regarding the assistance for any organization using the web application. It uses NoSql MongoDB for database storage and mongoose for database management and Tailwind CSS for design and entire development is done using Next.js.",
-        "languagesUsed": ["Next.Js", "JavaScript", "MongoDB", "HTML", "CSS"]
+        "libsUsed": ["Next.Js", "JavaScript", "MongoDB", "HTML", "CSS"]
     },
     {
         "name": "next-cars",
         "description": "Next Js Project for showcasing a Car Showcase website using Tailwind CSS, Rapid API, Headless UI, and the features available in Next JS.",
-        "languagesUsed": ["Next.Js", "rapid-api", "Typescript", "headless-ui", "tailwind-css"]
+        "libsUsed": ["Next.Js", "rapid-api", "Typescript", "headless-ui", "tailwind-css"]
+    },
+    {
+        "name": "bun-redis-socket",
+        "description": "A Bun project made for portraying the concepts of load balancing ready application for sockets interaction along with http requests.",
+        "libsUsed": ["Bun", "Express", "Socket.io", "Typescript", "redis"]
+    },
+    {
+        "name": "wisestep-link-shortner",
+        "description": "A full stack java Link shortner project made with Spring Reactive Web, Spring boot, MongoDB and React Js",
+        "libsUsed": ["React.Js", "Java", "MongoDB", "JavaScript", "HTML", "CSS"]
     },
     {
         "name": "ML-Unsupervised-Netflix-Clustering-Recommendation-Project",
         "description": "A machine learning pipeline project that uses unsupervised learning to cluster the movies and tv shows from the Netflix dataset and recommend the similar movies and tv shows based on the clustering.",
-        "languagesUsed": ["Python", "Pandas", "NumPy", "Google-colab", "ML"]
+        "libsUsed": ["Python", "Pandas", "NumPy", "Google-colab", "ML"]
     }
-    
-    
 ]

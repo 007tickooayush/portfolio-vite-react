@@ -1,7 +1,7 @@
-import { Box, Center, Collapse, Flex, Heading, SimpleGrid, Tag, Text } from '@chakra-ui/react';
+import { Box, Center, Collapse, Flex, Heading, Link, SimpleGrid, Tag, Text } from '@chakra-ui/react';
 import React, { useEffect, useState } from 'react'
 
-const ProjectCard = ({ name, description, languagesUsed }) => {
+const ProjectCard = ({ name, description, libsUsed }) => {
     const [show, setShow] = useState(false)
 
     const [github, setGithub] = useState('');
@@ -17,13 +17,13 @@ const ProjectCard = ({ name, description, languagesUsed }) => {
             <Flex direction="column" justifyContent="space-between" height="100%" alignContent={"stretch"}>
                 <Box>
                     <Heading as="h3" size="md" mb={2}>
-                        <a href={`${github}/${name}`}>
+                        <Link href={`${github}/${name}`} isExternal>
                             {name}
-                        </a>
+                        </Link>
                     </Heading>
                 </Box>
                 <Box onClick={handleToggle}>
-                    <Collapse startingHeight={75} in={show}>
+                    <Collapse startingHeight={50} in={show}>
                         <Text mb={4}>
                             {description} &nbsp;
                         </Text>
@@ -33,7 +33,7 @@ const ProjectCard = ({ name, description, languagesUsed }) => {
                 <Box >
                     <SimpleGrid columns={3} spacing={4}>
                         {
-                            languagesUsed.map((language, index) => (
+                            libsUsed.map((language, index) => (
 
                                 <Tag
                                     key={index}

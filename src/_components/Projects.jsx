@@ -20,7 +20,7 @@ const Projects = () => {
                                 projects.map((project, index) => {
                                     return (
                                         <Box key={index} >
-                                            <ProjectCard name={project.name} description={project.description} languagesUsed={project.languagesUsed} />
+                                            <ProjectCard name={project.name} description={project.description} libsUsed={project.libsUsed} />
                                         </Box>
                                     )
                                 })
