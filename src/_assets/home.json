@@ -12,6 +12,18 @@
     },
     "experience": [
         {
+            "title": "Software Development Engineer",
+            "company": "One Network Enterprises, Pune",
+            "duration": "June 2024 - Present",
+            "deliverables": [
+                "Developing full stack applications using one-of-a-kind framework developed by the company, incorporating core javascript and Java to enable real-time update features.",
+                "Using Oracle RDBMS for database management and handling the data efficiently.",
+                "Implementing customized modules in th Supply Chain Domain to cater to the needs of the world-class clients.",
+                "Spearheading efforts to overhaul and enhance backend server codebases, improving performance, reliability, and maintainability while minimizing technical debt.",
+                "Collaborating closely with cross-functional teams to gather requirements, design solutions, and implement features aligned with project objectives and timelines."
+            ]
+        },
+        {
             "title": "Software Engineer",
             "company": "Onpassive Technologies, Hyderabad",
             "duration": "June 2023 - May 2024",

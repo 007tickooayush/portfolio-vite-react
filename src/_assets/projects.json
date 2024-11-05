@@ -10,6 +10,16 @@
         "libsUsed": ["Node.js", "Express", "javascript", "MongoDB", "React.Js", "mongoose ", "multer"]
     },
     {
+        "name": "socketioxide-rust-chat",
+        "description": "A socket.io implementation of websockets using Rust programming to create an Http Server capable of handling websocket and HTTP requests.",
+        "libsUsed": ["Rust", "socketioxide", "tokio", "serde", "serde-json", "axum", "axum-server", "mongodb"]
+    },
+    {
+        "name": "socketioxide-chat-react",
+        "description": "Front end web interface for the socketioxide chat API and websocket made using React js and vite.",
+        "libsUsed": ["React.Js", "Vite", "socket.io", "javascript","HTML", "CSS"]
+    },
+    {
         "name": "cms-mongo-rust",
         "description": "A highly efficient and lightning fast API Server built with Rust programming language, React Js library and Mongo DB. built for experimenting the responsiveness of CRUD operations in Rust Web API Server.",
         "libsUsed": ["Rust", "mongodb", "React.Js", "serde", "tokio", "bson", "serde-json", "axum", "axum-server"]
