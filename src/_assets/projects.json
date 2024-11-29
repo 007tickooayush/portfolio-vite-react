@@ -5,9 +5,9 @@
         "libsUsed": ["React.Js", "Vite", "Chakra UI", "HTML", "CSS"]
     },
     {
-        "name": "byte-sigma-poc",
-        "description": "An image upload and gallery project with local pseudo cloud mechanism with authenticated access for files via the server to client, made using MERN Stack",
-        "libsUsed": ["Node.js", "Express", "javascript", "MongoDB", "React.Js", "mongoose ", "multer"]
+        "name": "ftp-rustified",
+        "description": "A File Transfer Protocol (FTP) server made with Rust programming language using tokio library.",
+        "libsUsed": ["Rust", "tokio", "serde", "serde-json"]
     },
     {
         "name": "socketioxide-rust-chat",
