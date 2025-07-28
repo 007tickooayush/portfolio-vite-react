@@ -1,10 +1,10 @@
 {
     "name": "Ayush Tickoo",
-    "email": "ayush.tickoo292000@gmail.com",
+    "email": "ay.works.remote@gmail.com",
     "linkedin":"https://www.linkedin.com/in/ayush-tickoo-150704182/",
     "github": "https://github.com/007tickooayush",
     "medium": "https://medium.com/@007tickooayush",
-    "description": "Software Engineer with proficiency in Rust, MERN (MongoDB, Express.js, React.js, Node.js) stack, Java Spring Boot, and MySQL database management. Proven ability to develop robust and scalable applications while collaborating effectively within multidisciplinary teams and with proficient grasp over REST APIs, Websockets using socket.io, and Redis for caching, and slight experience with Docker compose for handling the containers of the project. Initially have worked with Java Spring boot using MySql and JPA, and React js and was also responsible for Version control management using Git. Also having done a Full Stack Data science specialisation certification for a year. Seeking an opportunity to leverage technical expertise and passion for innovation in a forward-thinking company.",
+    "description": "Software Engineer with proficiency in Rust based TCP servers using tokio and axum/actix for HTTP handling, and proven proficiency in MERN (MongoDB, Express.js, React.js, Node.js) stack, Java Spring Boot, and MySQL/Oracle. Proven ability to develop robust and scalable applications while collaborating effectively within multidisciplinary teams and with proficient grasp over REST APIs, Websockets using socket.io, and Redis for caching, and slight experience with Docker compose for handling the containers of the project. And also have a decent technical grasp over the concepts of version management using Git and Perforce.Along with all the achievements, have completed a Full Stack Data science specialisation certification as well. Seeking an opportunity to leverage technical expertise and passion for innovation in a forward-thinking company.",
     "education": {
         "degree": "Bachelor of Technology",
         "major": "Computer Science and Engineering",
@@ -14,8 +14,8 @@
     "skills_brief": ["Rust", "MERN Stack", "Spring Boot", "MySQL", "Socket.IO", "Redis", "Docker Compose", "Websockets", "Git"],
     "skills": {
         "expert": [ "Express js", "Mongoose", "Joi", "Socket.io", "Git" ],
-        "intermediate": [ "Rust", "Node js", "Typescript", "Mongo DB", "Java", "Mysql", "Redis", "Python", "Websockets", "javascript", "html", "css", "React js" ],
-        "basic": [ "Spring boot", "Docker", "Docker Compose" ]
+        "intermediate": [ "Rust", "Node.js", "Typescript", "Mongo DB", "Java", "Mysql", "Redis", "Python", "Websockets", "javascript", "html", "css", "React.js", "Perforce" ],
+        "basic": [ "Spring boot", "Oracle", "Docker", "Docker Compose" ]
     },
     "experience": [
         {
@@ -63,7 +63,7 @@
             ]
         },
         {
-            "title": "Product Engineer",
+            "title": "Product Engineer - Intern",
             "company": "Highradius Technologies Pvt. Ltd., Hyderabad",
             "duration": "August 2021 - May 2022",
             "deliverables": [
